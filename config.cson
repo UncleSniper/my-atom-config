@@ -1,4 +1,14 @@
 "*":
+  "autocomplete-plus":
+    suppressActivationForEditorClasses: [
+      "vim-mode.command-mode"
+      "vim-mode.visual-mode"
+      "vim-mode.operator-pending-mode"
+      "vim-mode-plus.normal-mode"
+      "vim-mode-plus.visual-mode"
+      "vim-mode-plus.operator-pending-mode"
+      "vim-mode-plus.insert-mode.replace"
+    ]
   core:
     disabledPackages: [
       "spell-check"
