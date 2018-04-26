@@ -1,0 +1,22 @@
+"*":
+  core:
+    disabledPackages: [
+      "spell-check"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+  editor:
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showInvisibles: true
+    softTabs: false
+    tabLength: 4
+  "exception-reporting":
+    userId: "9835c1ed-93b2-4890-ba6f-12f8b51a6bbe"
+  "vim-mode-plus":
+    automaticallyEscapeInsertModeOnActivePaneItemChange: true
+    incrementalSearch: false
+    keymapYToYankToLastCharacterOfLine: true
+  welcome:
+    showOnStartup: false
