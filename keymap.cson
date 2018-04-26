@@ -17,6 +17,10 @@
 	'escape': 'vim-mode-plus:reset-normal-mode'
 	'ctrl-c': 'vim-mode-plus:reset-normal-mode'
 	'ctrl-[': 'vim-mode-plus:reset-normal-mode'
+	'ctrl-left': 'window:focus-pane-on-left'
+	'ctrl-right': 'window:focus-pane-on-right'
+	'ctrl-up': 'window:focus-pane-above'
+	'ctrl-down': 'window:focus-pane-below'
 
 # all except normal
 # -------------------------
@@ -210,8 +214,13 @@
 	'ctrl-w c': 'pane:close'
 	'ctrl-w ctrl-q': 'core:close'
 	'ctrl-w q': 'core:close'
-	'g t': 'vim-mode-plus:next-tab'
-	'g T': 'vim-mode-plus:previous-tab'
+	#'g t': 'vim-mode-plus:next-tab'
+	#'g T': 'vim-mode-plus:previous-tab'
+	'g t': 'atom-vim-like-tab:next'
+	'g T': 'atom-vim-like-tab:previous'
+	'f1': 'atom-vim-like-tab:list'
+	'\\ T n': 'atom-vim-like-tab:new'
+	'\\ T c': 'atom-vim-like-tab:close'
 
 	'f': 'vim-mode-plus:find'
 	'F': 'vim-mode-plus:find-backwards'
