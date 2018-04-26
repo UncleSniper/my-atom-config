@@ -2,8 +2,12 @@
   core:
     disabledPackages: [
       "spell-check"
+      "project-plus"
     ]
     openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "project-manager"
+    ]
     telemetryConsent: "no"
     uriHandlerRegistration: "always"
   editor:
@@ -14,6 +18,9 @@
     tabLength: 4
   "exception-reporting":
     userId: "9835c1ed-93b2-4890-ba6f-12f8b51a6bbe"
+  "project-plus":
+    autoDiscover: false
+    notifications: false
   "vim-mode-plus":
     automaticallyEscapeInsertModeOnActivePaneItemChange: true
     incrementalSearch: false
