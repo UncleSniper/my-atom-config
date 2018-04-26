@@ -40,6 +40,7 @@
 	# 'ctrl-a': 'vim-mode-plus:insert-last-inserted'
 	'ctrl-r': 'vim-mode-plus:insert-register'
 	'ctrl-o': 'vim-mode-plus:activate-normal-mode-once'
+	'ctrl-l': 'editor:move-to-end-of-line'
 
 # except insert
 # -------------------------
